@@ -1,0 +1,26 @@
+@media all and (min-width: 992px) {
+    #header, #menu, #about, #portfolio, #contact, #footer {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    #header, #menu, #about, #contact, #footer {
+        width: 80%;
+    }   
+    img {
+        width: 49%;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    #gallery {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #gallery {
+        width: 100%;
+    }
+}

@@ -1,0 +1,205 @@
+* {
+	box-sizing: border-box;
+}
+
+/* *********HEADER START**********
+*
+*
+*/
+
+#header {
+    text-align: center;
+    background-image: url("../img/header.jpg");
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .main-div {
+    align-content: center;
+}
+  
+#header .main-div #main-header-text {
+    color: #007bff;
+}
+
+#header .border-input {
+    color: #333;
+    border: 2px solid #007bff;
+    padding: 20px;
+}
+
+#header .main-div .main-p {
+    color: #333;
+    justify-content: center;
+}
+
+#header .main-div .bullet {
+    color: #007bff;
+}
+
+/* *********HEADER END**********
+*
+*
+*/
+
+/* *********MENU START**********
+*
+*
+*/
+
+#menu {
+    text-align: center;
+    background: #007bff;
+}
+
+#menu .menu-nav {
+    padding: 25px;
+    list-style: none;
+    display: inline-block;
+}
+
+#menu .menu-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/* *********MENU END**********
+*
+*
+*/
+
+/* *********ABOUT START**********
+*
+*
+*/
+
+#about {
+    text-align: center;
+}
+
+#about #about-header {
+    color: #333;
+}
+
+#about img {
+    width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+#about #about-p {
+    
+}
+
+#about div {
+    border: 1px solid white;
+    text-align: center;
+    
+    color:#333;
+}
+
+#about .border-about {
+    color: #333;
+    border: 2px solid #007bff;
+    padding: 20px;
+}
+
+/* *********ABOUT END**********
+*
+*
+*/
+
+/* *********PORTFOLIO START**********
+*
+*
+*/
+
+#portfolio {
+    text-align: center;
+    background-color: #f2f1ed;
+}
+
+#portfolio img {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio div {
+    border: 1px solid #f2f1ed;
+    margin-bottom: 30px;
+}
+
+/* *********PORTFOLIO END**********
+*
+*
+*/
+
+/* *********CONTACT START**********
+*
+*
+*/
+
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact .contact #name {
+    
+    
+}
+
+#contact #submit {
+    border: 2px solid #007bff;
+    padding: 20px;
+}
+
+#contact #message {
+    width: 400px;
+    height: 100px;
+}
+
+/* *********CONTACT END**********
+*
+*
+*/
+
+/* *********FOOTER START**********
+*
+*
+*/
+
+#footer {
+    text-align: center;
+    padding: 25px;
+    color: #333;
+    background: #f2f1ed;
+}
+
+/* *********FOOTER END**********
+*
+*
+*/
+
+hr {
+    background: #007bff;
+    width: 5%;
+    height: 1px;
+}
+
+.hr {
+    background: #007bff;
+    width: 15%;
+    height: 1px;
+}
